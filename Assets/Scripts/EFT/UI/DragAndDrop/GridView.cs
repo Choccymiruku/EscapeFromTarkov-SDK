@@ -17,8 +17,16 @@ namespace EFT.UI.DragAndDrop
 		[SerializeField]
 		private Image _highlightPanel;
 
-		// Token: 0x0400B91F RID: 47391
+		// Token: 0x0400CDD6 RID: 52694
 		[SerializeField]
 		private bool _nonInteractable;
+
+		// Token: 0x0400CDD7 RID: 52695
+		[SerializeField]
+		protected FilterPanel _filterPanel;
+
+		// Token: 0x0400CDD8 RID: 52696
+		[SerializeField]
+		private bool _drawDebugGizmos;
 	}
 }
